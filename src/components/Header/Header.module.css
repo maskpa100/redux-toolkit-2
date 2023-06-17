@@ -1,0 +1,21 @@
+.header{
+	background: #E4E3E3;
+	height: 56px;
+}
+.row{
+	display: flex;
+    justify-content: space-between;
+    padding: 0 55px;
+}
+.list{
+	list-style-type:none;
+	display: flex;
+    align-items: center;
+    gap:20px;
+}
+.list li a{
+	text-decoration: none;
+}
+.active{
+	color: red;
+}

@@ -1,0 +1,124 @@
+.word{
+	width: 40%;
+    margin: auto;
+    padding-top: 30px;
+    display:flex;
+}
+.word input{
+	padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    float: left;
+    width: 80%;
+    background: #f1f1f1;
+    border-radius: 15px 0 0 15px;
+}
+.word button{
+	float: left;
+    width: 20%;
+    padding: 10px;
+    background: #2196F3;
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none;
+    cursor: pointer;
+    border-radius: 0 15px 15px 0;
+}
+.item{
+	display: flex;
+	width: 100%;
+}
+.orientations{
+	margin: 30px 0px 30px 45px;
+} 
+.orientations button{
+	padding: 9px 30px 9px 9px;
+    border-radius: 17px;
+    border: 1px solid #8888;
+    position: relative;
+}
+.iconDown{
+	position: absolute;
+    top: 12px;
+    right: 12px;
+}
+.orientations .list{
+	border: 1px solid #8888;
+    width: 185px;
+    margin-top: 7px;
+    border-radius: 21px;
+    display: bloc;
+    position: absolute;
+    z-index: 2;
+    background-color: white;
+}
+.orientations .list p{
+	padding: 10px 10px 10px 29px;
+    border-radius: 11px;
+    position: relative;
+    margin: 8px;
+    cursor: pointer;
+}
+.iconCheck{
+	position: absolute;
+    left: 8px;
+    top: 10px;
+}
+.option{
+    margin: 30px 0px 30px 75px;
+}
+.option button{
+    padding: 9px 30px 9px 9px;
+    border-radius: 17px;
+    border: 1px solid #8888;
+    position: relative;
+}
+.option .list{
+    border: 1px solid #8888;
+    width: 185px;
+    margin-top: 7px;
+    border-radius: 21px;
+    display: block;
+    position: absolute;
+    z-index: 2;
+    background-color: white;
+}
+.option p{
+    padding: 10px 10px 10px 29px;
+    border-radius: 11px;
+    position: relative;
+    margin: 8px;
+    cursor: pointer;
+}
+.search_container {
+    padding: 40px 3%;
+}
+.search_container ul {
+    list-style: none;
+    padding: 0;
+}
+.search_content{
+    padding-bottom: 90px;
+}
+.search_image_gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.search_image_gallery > li {
+    flex: 1 1 auto;
+    height: 180px;
+    cursor: pointer;
+    position: relative;
+}
+.search_image_gallery li img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    vertical-align: middle;
+    border-radius: 5px;
+}
+.search_container .count{
+    margin: -32px 0px 27px 15px;
+}
