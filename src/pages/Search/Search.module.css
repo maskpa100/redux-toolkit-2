@@ -111,10 +111,11 @@
     height: 180px;
     cursor: pointer;
     position: relative;
+    display: flex;
+    justify-content: center;
 }
 .search_image_gallery li img {
     object-fit: cover;
-    width: 100%;
     height: 100%;
     vertical-align: middle;
     border-radius: 5px;
